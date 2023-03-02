@@ -1,0 +1,33 @@
+header{
+
+    width: 100%;
+    
+    background-color: black;
+    nav{
+        display: flex;
+        height: 85px;
+        align-items: center;
+        justify-content: center;
+        ul{
+            display: flex;
+            flex-direction: row;
+            li{
+                
+                margin-left: 35px;
+                cursor: pointer;
+                transition: 0.4s;
+                a{
+                    color: #fff;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 25px;
+                    font-weight: 600;
+                    &:hover {
+                        color: #fbff00;
+                        font-size: 28px;
+                    }
+                }
+
+            }
+        }
+    }
+}

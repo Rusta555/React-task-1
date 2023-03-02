@@ -1,0 +1,15 @@
+.form {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .form-group{
+        border: 3px solid black;
+        padding: 65px 70px;
+        display: flex;
+        flex-direction: column;
+        .MuiFormControl-root{
+            margin-bottom: 15px !important;
+        }
+    }
+}
